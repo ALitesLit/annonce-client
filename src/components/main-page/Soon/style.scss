@@ -1,0 +1,99 @@
+.soon {
+    header {
+        width: 100%;
+        height: 36px;
+        
+        background-color: black;
+        color: white;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        z-index: 15;
+        width: 14px;
+        height: 151px;
+        position: absolute;
+        color: #000000;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        content: "";
+        background-image: url("../../../assets/svg/cover-arrow.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+
+        @media screen and (max-width: 1024px) {
+            width: 7px;
+            height: 25px;
+            background-image: url("../../../assets/svg/cover-arrow-mobile.svg");
+        }
+    }
+
+    .swiper-button-prev {
+        rotate: 180deg;
+    }
+
+
+    .soon__content {
+        width: 100vw;
+        height: 100vh;
+
+        position: relative;
+
+        pointer-events: none;
+        background-image: url("../../../assets/images/fashion_show.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #030406;
+    
+        @media screen and (max-width: 545px) {
+            background-image: url("../../../assets/images/fashion_show-mobile.png");
+            background-size: contain;
+            background-position: center;
+            height: 652px;
+        }
+
+
+        .soon__conent-text {
+            position: absolute;
+
+            left: 50px;
+            bottom: 50px;
+
+            color: white;
+
+            @media screen and (max-width: 545px) {
+                bottom: 20px;
+                left: 20px;
+            }
+
+
+            p {
+                font: 400 0.9em Arial;
+                line-height: 16.1px;
+
+                @media screen and (max-width: 545px) {
+                    font-size: 8px;
+                }
+            }
+
+            h3 {
+                font: 400 2.8em Arial;
+                line-height: 57.5px;
+                margin-bottom: -10px;
+
+                @media screen and (max-width: 545px) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

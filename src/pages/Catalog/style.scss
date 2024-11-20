@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=Manrope:wght@200..800&display=swap');
+
+.catalog__page {
+    padding: 20px 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 100vw;
+
+    font-family: "Manrope", sans-serif;
+
+
+    @media screen and (max-width: 630px) {
+        flex-direction: column;
+        justify-content: center;
+        width: 92vw;
+    }
+
+
+    .catalog__page-cards {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        max-width: 80%;
+        justify-content: center;
+        gap: 15px;
+
+        @media screen and (max-width: 630px) {
+            margin: 0px auto;
+            max-width: 92vw;
+            padding: 0px 3vw;
+        }
+    }
+
+    
+    .catalog__page-categoryes {
+        width: 100vw;
+        max-width: 20%;
+
+        @media screen and (max-width: 630px) {
+            margin: 0px auto;
+            max-width: 60%;
+        }
+
+        h3 {
+            font: 400 20px;
+        }
+
+        ul {
+            padding-left: 0px;
+            padding-top: 30px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+
+            border-top: 1px solid rgba(186, 163, 145, 1);
+
+            li {
+                cursor: pointer;
+            }
+
+            b {
+                font: 600 18px;
+            }
+        }
+    }
+}

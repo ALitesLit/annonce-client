@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Колье",
+        "img": "/static/catalog1.png",
+        "price": 10000
+    },
+    {
+        "id": 2,
+        "name": "Колье",
+        "img": "/static/catalog1.png",
+        "price": 10000
+    },
+    {
+        "id": 3,
+        "name": "Колье",
+        "img": "/static/catalog1.png",
+        "price": 10000
+    },
+    {
+        "id": 4,
+        "name": "Колье",
+        "img": "/static/catalog1.png",
+        "price": 10000
+    },
+    {
+        "id": 5,
+        "name": "Колье",
+        "img": "/static/catalog1.png",
+        "price": 10000
+    },
+    {
+        "id": 6,
+        "name": "Колье",
+        "img": "/static/catalog1.png",
+        "price": 10000
+    },
+    {
+        "id": 7,
+        "name": "Колье",
+        "img": "/static/catalog1.png",
+        "price": 10000
+    }
+]

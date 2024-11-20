@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "ДЖИНСОВЫЙ КОСТЮМ",
+        "price": 12990,
+        "photo": "/static/5FF6A0C.png"
+    },
+    {
+        "id": 2,
+        "name": "ДЖИНСОВЫЙ КОСТЮМ",
+        "price": 12990,
+        "photo": "/static/5FF6A0C.png"
+    },
+    {
+        "id": 3,
+        "name": "ДЖИНСОВЫЙ КОСТЮМ",
+        "price": 12990,
+        "photo": "/static/5FF6A0C.png"
+    }
+]

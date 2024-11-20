@@ -1,0 +1,43 @@
+.product__card {
+    max-width: 400px;
+    width: 95vw;
+
+
+    @media screen and (max-width: 1024px) {
+        width: 252px;
+    }
+
+    
+    .product__card-img {
+        max-width: 400px;
+        width: 100%;
+        height: 600px;
+        
+        pointer-events: none;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        @media screen and (max-width: 1024px) {
+            height: 395px;
+        }
+    }
+
+    .product__card-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .product__card-star {
+            width: 39px;
+            height: 39px;
+    
+            background-image: url("../../../assets/svg/card_star.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: none;
+            background-color: transparent;
+        }
+    }
+}

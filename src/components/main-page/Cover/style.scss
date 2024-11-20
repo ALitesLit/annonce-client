@@ -1,0 +1,99 @@
+.cover {
+    // position: relative;
+    // background-image: url("../../../assets/images/red-dress.png");
+    // background-position: 0px 0px;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-color: #030406;
+
+    // @media screen and (max-width: 545px) {
+    //     background-image: url("../../../assets/images/red-dress-mobile.png");
+    //     background-size: contain;
+    //     background-position: center;
+    // }
+
+    .cover-swipper {
+        position: absolute;
+        width: 100vw;
+        min-height: 100vh;
+
+        .cover-background {
+            width: 100vw;
+            min-height: 100vh;
+
+            background-image: url("../../../assets/images/red-dress.png");
+            background-position: 0px 0px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #030406;
+        
+            @media screen and (max-width: 545px) {
+                background-image: url("../../../assets/images/red-dress-mobile.png");
+                background-size: contain;
+                background-position: center;
+            }
+        }
+
+        .cover-footer {
+            font-family: 400 14px Arial;
+            color: white;
+    
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            bottom: 10px;
+    
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 35px;
+    
+                .look-all {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .swiper-button-next::after,
+        .swiper-button-prev::after {
+            z-index: 15;
+            width: 14px;
+            height: 151px;
+            position: absolute;
+            color: #000000;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s;
+            content: "";
+            background-image: url("../../../assets/svg/cover-arrow.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+
+            @media screen and (max-width: 1024px) {
+                width: 7px;
+                height: 25px;
+                background-image: url("../../../assets/svg/cover-arrow-mobile.svg");
+            }
+        }
+
+        .swiper-button-prev {
+            rotate: 180deg;
+        }
+    }
+
+
+
+    .cover-content {
+        position: absolute;
+        z-index: 2;
+    }
+
+
+    a {
+        color: white;
+    }
+}
