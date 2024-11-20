@@ -1,4 +1,7 @@
 import logo from "../../../assets/svg/CSG_logo.svg";
+import tg from "../../../assets/svg/telegramm.svg";
+import vk from "../../../assets/svg/VK.svg";
+import insta from "../../../assets/svg/instagram.svg";
 
 import "./style.scss";
 
@@ -12,36 +15,50 @@ const Footer = () => {
                     <button>ПОДПИСАТЬСЯ</button>
                 </div>
 
-                <div className="help">
-                    <p>ПОМОЩЬ</p>
+                <div className="footer-info">
+                    <div className="help">
+                        <p>ПОМОЩЬ</p>
 
-                    <ul>
-                        <li>Оплата</li>
-                        <li>Доставка</li>
-                        <li>Обмен и возврат</li>
-                        <li>Подарочные карты</li>
-                    </ul>
-                </div>
+                        <ul>
+                            <li>Оплата</li>
+                            <li>Доставка</li>
+                            <li>Обмен и возврат</li>
+                            <li>Подарочные карты</li>
+                        </ul>
+                    </div>
 
-                <div className="contacts">
-                    <p>КОНТАКТЫ</p>
+                    <div className="contacts">
+                        <p>КОНТАКТЫ</p>
 
-                    <ul>
-                        <li>Обратная связь</li>
-                        <li>Контакты</li>
-                        <li>8(800)250-19-50</li>
-                    </ul>
-                </div>
+                        <ul>
+                            <li>Обратная связь</li>
+                            <li>Контакты</li>
+                            <li>8(800)250-19-50</li>
 
-                <div className="info">
-                    <p>ИНФОРМАЦИЯ</p>
+                            <div className="contacts-icons">
+                                <div className="icon" style={{
+                                    backgroundImage: `url("${tg}")`
+                                }} />
+                                <div className="icon" style={{
+                                    backgroundImage: `url("${vk}")`
+                                }} />
+                                <div className="icon" style={{
+                                    backgroundImage: `url("${insta}")`
+                                }} />
+                            </div>
+                        </ul>
+                    </div>
 
-                    <ul>
-                        <li>О компании</li>
-                        <li>Публичная оферта</li>
-                        <li>Политика конфиденциальности</li>
-                        <li>Использование файлов cookie</li>
-                    </ul>
+                    <div className="info">
+                        <p>ИНФОРМАЦИЯ</p>
+
+                        <ul>
+                            <li>О компании</li>
+                            <li>Публичная оферта</li>
+                            <li>Политика конфиденциальности</li>
+                            <li>Использование файлов cookie</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

@@ -48,7 +48,8 @@
         width: 40%;
 
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+        pointer-events: none;
         background-position: center;
 
 

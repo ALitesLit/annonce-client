@@ -109,6 +109,10 @@
         .menu-wrapper {
             margin-top: 45px;
 
+            @media screen and (max-width: 1024px) {
+                margin-top: 60px;
+            }
+
             ul {
                 font: 400 14px Arial;
                 padding: 0px;

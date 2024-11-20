@@ -1,21 +1,12 @@
 .cover {
-    // position: relative;
-    // background-image: url("../../../assets/images/red-dress.png");
-    // background-position: 0px 0px;
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // background-color: #030406;
-
-    // @media screen and (max-width: 545px) {
-    //     background-image: url("../../../assets/images/red-dress-mobile.png");
-    //     background-size: contain;
-    //     background-position: center;
-    // }
+    @media screen and (max-width: 545px) {
+        height: 651px;
+        min-height: 651px;
+    }
 
     .cover-swipper {
         position: absolute;
         width: 100vw;
-        min-height: 100vh;
 
         .cover-background {
             width: 100vw;
@@ -31,6 +22,8 @@
                 background-image: url("../../../assets/images/red-dress-mobile.png");
                 background-size: contain;
                 background-position: center;
+                height: 651px;
+                min-height: 651px;
             }
         }
 
@@ -44,6 +37,7 @@
             justify-content: center;
             text-align: center;
             bottom: 10px;
+            left: 0px;
     
             ul {
                 display: flex;
