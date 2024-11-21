@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/annonce-client/static/css/main.9a84d071.css",
+    "main.js": "/annonce-client/static/js/main.a6ff9849.js",
+    "static/media/fashion_show.png": "/annonce-client/static/media/fashion_show.0dc49c3cf8aedd226d6f.png",
+    "static/media/red-dress.png": "/annonce-client/static/media/red-dress.87ad66a2d003fa40908c.png",
+    "static/media/voali.png": "/annonce-client/static/media/voali.ce43ad49e8b8e65ee0c1.png",
+    "static/media/fashion_show-mobile.png": "/annonce-client/static/media/fashion_show-mobile.20cdc1c10c6db819b666.png",
+    "static/media/red-dress-mobile.png": "/annonce-client/static/media/red-dress-mobile.2facd78f2a261d1b917b.png",
+    "static/media/voali-mobile.png": "/annonce-client/static/media/voali-mobile.7fdd0deb2706e59941ea.png",
+    "static/media/CSG_logo.svg": "/annonce-client/static/media/CSG_logo.a8abfa20568f9a7a0e69ed5b7392751b.svg",
+    "static/media/logo.svg": "/annonce-client/static/media/logo.b5f2e37073038424d007.svg",
+    "static/media/logo-black.svg": "/annonce-client/static/media/logo-black.1bcd26c47be25c586d59.svg",
+    "static/media/VK.svg": "/annonce-client/static/media/VK.5da86622b1b1c95c2dae6876140c0684.svg",
+    "static/media/account.svg": "/annonce-client/static/media/account.db3104d6dade943e280f58b009af7d9b.svg",
+    "static/media/account-gray.svg": "/annonce-client/static/media/account-gray.0d6fb5ad7aa05d54aa8b37ae940a074b.svg",
+    "static/media/instagram.svg": "/annonce-client/static/media/instagram.2ea5665f8031610f56d29359c635b321.svg",
+    "index.html": "/annonce-client/index.html",
+    "static/media/telegramm.svg": "/annonce-client/static/media/telegramm.13b3ebc8e240ac1711908bf8ab83e3ea.svg",
+    "static/media/catalog.svg": "/annonce-client/static/media/catalog.5b1dcd45e814ca55b33634ad639fd12c.svg",
+    "static/media/star-gray.svg": "/annonce-client/static/media/star-gray.942e5b9c58545e20dd698057db8c57be.svg",
+    "static/media/catalog-gray.svg": "/annonce-client/static/media/catalog-gray.eb6f317a6a4177d60e83f7e5f0904513.svg",
+    "static/media/search-gray.svg": "/annonce-client/static/media/search-gray.77b2fbd49ba0d9a96e709aceb6863e77.svg",
+    "static/media/card_star.svg": "/annonce-client/static/media/card_star.f4300dfd969f2e02125a.svg",
+    "static/media/star.svg": "/annonce-client/static/media/star.d732d0e80cd607dd9c96673a63808c3d.svg",
+    "static/media/aroow.svg": "/annonce-client/static/media/aroow.49c939276055908bf701.svg",
+    "static/media/menu-gray.svg": "/annonce-client/static/media/menu-gray.d24dae0c0ba0be91a8a5.svg",
+    "static/media/menu.svg": "/annonce-client/static/media/menu.7ca89c96aa1744505725.svg",
+    "static/media/cover-arrow.svg": "/annonce-client/static/media/cover-arrow.f2e4d2f3413abb217faf.svg",
+    "static/media/produc-arrow.svg": "/annonce-client/static/media/produc-arrow.777986d04f35687b7b8c.svg",
+    "static/media/search.svg": "/annonce-client/static/media/search.224f0ecf1945628a9898823bfc6ad926.svg",
+    "static/media/cover-arrow-mobile.svg": "/annonce-client/static/media/cover-arrow-mobile.c0915688bd2ea2d84487.svg",
+    "static/media/close.svg": "/annonce-client/static/media/close.aec07538c290ffdb1c6f.svg",
+    "main.9a84d071.css.map": "/annonce-client/static/css/main.9a84d071.css.map",
+    "main.a6ff9849.js.map": "/annonce-client/static/js/main.a6ff9849.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a84d071.css",
+    "static/js/main.a6ff9849.js"
+  ]
+}
