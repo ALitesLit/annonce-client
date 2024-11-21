@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/annonce-client/static/css/main.9a84d071.css",
-    "main.js": "/annonce-client/static/js/main.c709dd54.js",
+    "main.js": "/annonce-client/static/js/main.eda5868a.js",
     "static/media/fashion_show.png": "/annonce-client/static/media/fashion_show.0dc49c3cf8aedd226d6f.png",
     "static/media/red-dress.png": "/annonce-client/static/media/red-dress.87ad66a2d003fa40908c.png",
     "static/media/voali.png": "/annonce-client/static/media/voali.ce43ad49e8b8e65ee0c1.png",
@@ -32,10 +32,10 @@
     "static/media/cover-arrow-mobile.svg": "/annonce-client/static/media/cover-arrow-mobile.c0915688bd2ea2d84487.svg",
     "static/media/close.svg": "/annonce-client/static/media/close.aec07538c290ffdb1c6f.svg",
     "main.9a84d071.css.map": "/annonce-client/static/css/main.9a84d071.css.map",
-    "main.c709dd54.js.map": "/annonce-client/static/js/main.c709dd54.js.map"
+    "main.eda5868a.js.map": "/annonce-client/static/js/main.eda5868a.js.map"
   },
   "entrypoints": [
     "static/css/main.9a84d071.css",
-    "static/js/main.c709dd54.js"
+    "static/js/main.eda5868a.js"
   ]
 }
